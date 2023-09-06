@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/man_phu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="end"
+        android:text="manphu"
+        android:textSize="40sp"
+        android:fontFamily="monospace"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/man_chinh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity="end"
+        android:text="manchinh"
+        android:textSize="40sp"
+        android:fontFamily="monospace">
+
+    </TextView>
+
+</LinearLayout>
